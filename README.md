@@ -1,3 +1,9 @@
+---
+grand_parent: null
+nav_order: 2
+parent: javaoop
+title: just-the-docs-template
+---
 # just-the-docs-template
 
 This is a *bare-minimum* template to create a [Jekyll] site that:
