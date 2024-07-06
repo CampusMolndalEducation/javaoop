@@ -1,5 +1,5 @@
 ---
-editor: Marcus Medina
+author: Marcus Medina
 grand_parent: Java OOP
 layout: default
 nav_order: 1
@@ -9,6 +9,10 @@ title: Om kursen
 
 # Om kursen
 
+
+
+
+
 <div class="bottom">
-Nästa - [campus_molndal](campus_molndal.md)
+Nästa - [2](2.md)
 </div>

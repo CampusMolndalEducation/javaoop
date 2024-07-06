@@ -1,5 +1,5 @@
 ---
-editor: Marcus Medina
+author: Marcus Medina
 grand_parent: Java OOP
 layout: default
 nav_order: 2
@@ -11,7 +11,11 @@ title: Campus Mölndal
 
 Hejsan hoppsan tralalalaaa
 
+
+
+
+
 <div class="bottom">
-Bakåt - [about_the_course](about_the_course.md)
-Nästa - [pekka](pekka.md)
+Bakåt - [1](1.md)
+Nästa - [3](3.md)
 </div>

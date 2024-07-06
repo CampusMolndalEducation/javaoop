@@ -1,4 +1,5 @@
 ---
+author: Marcus Medina
 grand_parent: Chatgpt
 nav_order: 1
 parent: Cats
