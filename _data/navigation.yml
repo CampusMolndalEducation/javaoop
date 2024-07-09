@@ -3,5 +3,7 @@ main:
   url: /javaoop/chapters/about/about.md
 - title: About The Course
   url: /javaoop/chapters/about/about_the_course.md
+- title: Campus-Molndal
+  url: /javaoop/chapters/about/campus-molndal.md
 - title: Campus Molndal
   url: /javaoop/chapters/about/campus_molndal.md

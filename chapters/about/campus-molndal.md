@@ -1,10 +1,11 @@
 ---
-layout: 
-title: 
-nav_order: 
-parent: 
-grand_parent:
-has_children:  
+layout: default
+title: Campus Mölndal
+nav_order: 1
+parent: Om sidan
+grand_parent: Chapters
+has_toc: true
+editor: Marcus Medina
 ---
 
 # Campus Mölndal
