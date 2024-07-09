@@ -6,9 +6,6 @@ url: "https://CampusMolndalEducation.github.io"
 theme: "just-the-docs"
 remote_theme: "just-the-docs/just-the-docs"
 
-# Disable non-whitelisted plugins
-safe: true
-
 # Timezone
 timezone: "Europe/Stockholm"
 
@@ -21,32 +18,5 @@ aux_links:
 
 aux_links_new_tab: true
 
-# Navigation
-nav_enabled: true
-nav_fold: false
-opens_in_new_tab: true
-
-# Search
-search_enabled: true
-
-# Sidebar
-sidebar_enabled: true
-
-# Colour theme
-color_scheme: dark
-
-# Sidebar settings
-
-
-# Compress Sass
-sass:
-  style: compressed
-
-# default frontmatter
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-    values:
-      layout: "default"
-      author: "Marcus Medina"
+# Disable non-whitelisted plugins
+safe: true
