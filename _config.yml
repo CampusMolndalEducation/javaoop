@@ -13,11 +13,3 @@ aux_links:
 # Compress Sass
 sass:
   style: compressed
-
-# Plugins
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-remote-theme
-
-# Navigation file:  _data/navigation.yml
