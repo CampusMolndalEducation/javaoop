@@ -1,18 +1,11 @@
 ---
-author: Marcus Medina
-grand_parent: Java OOP
 layout: default
-nav_order: 1
-parent: Om Sidan
 title: Om kursen
+has_toc: true
+editor: Marcus Medina
+nav_order: 1
+parent: None
+grand_parent: Chapters
 ---
 
 # Om kursen
-
-
-
-
-
-<div class="bottom">
-Nästa - [2](2.md)
-</div>

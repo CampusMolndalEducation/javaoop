@@ -1,7 +1,11 @@
 ---
-author: Marcus Medina
-has_children: true
+layout: default
+title: Chapters
+has_toc: true
+editor: Marcus Medina
 nav_order: 1
-title: Java OOP
+parent: Chapters
+grand_parent: None
 ---
-# Java OOP
+
+# Chapters
