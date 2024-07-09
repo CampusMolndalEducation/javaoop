@@ -1,8 +1,23 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Java OOP - Campus Mölndal
+description: "En online bok för att lära och repetera OOP-koncept i Java"
 theme: just-the-docs
-
-url: https://just-the-docs.github.io
+baseurl: "/javaoop"
+url: "https://CampusMolndalEducation.github.io"
+theme: "just-the-docs"
+remote_theme: "just-the-docs/just-the-docs"
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  Campus Mölndal YH: https://campus.molndal.se/campus-molndal/utbildningar/yrkeshogskola/it-utbildningar.html
+
+
+# Compress Sass
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-remote-theme
+
+# Navigation file:  _data/navigation.yml
