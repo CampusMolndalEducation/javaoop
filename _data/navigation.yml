@@ -3,7 +3,21 @@ main:
   url: /javaoop/chapters/about/about.md
 - title: About The Course
   url: /javaoop/chapters/about/about_the_course.md
-- title: Campus-Molndal
-  url: /javaoop/chapters/about/campus-molndal.md
 - title: Campus Molndal
   url: /javaoop/chapters/about/campus_molndal.md
+- title: Advanced Oop Concepts
+  url: /javaoop/chapters/advanced_oop_concepts/advanced_oop_concepts.md
+- title: Builder With And Without Lombok
+  url: /javaoop/chapters/advanced_oop_concepts/builder_with_and_without_lombok.md
+- title: Comparison Of Oop And Functional Programming
+  url: /javaoop/chapters/advanced_oop_concepts/comparison_of_oop_and_functional_programming.md
+- title: Factory With And Without Lombok
+  url: /javaoop/chapters/advanced_oop_concepts/factory_with_and_without_lombok.md
+- title: Load And Save Files In Zip
+  url: /javaoop/chapters/zip_handling/load_and_save_files_in_zip.md
+- title: Load And Save Files On Disk
+  url: /javaoop/chapters/zip_handling/load_and_save_files_on_disk.md
+- title: Zip Handling
+  url: /javaoop/chapters/zip_handling/zip_handling.md
+- title: Zip Handling In Java
+  url: /javaoop/chapters/zip_handling/zip_handling_in_java.md
