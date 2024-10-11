@@ -1,0 +1,68 @@
+name: "CodeQL Advanced for Any Language"
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  schedule:
+    - cron: '39 2 * * 4'
+
+jobs:
+  analyze:
+    name: Analyze (${{ matrix.language }})
+    runs-on: ${{ (matrix.language == 'swift' && 'macos-latest') || 'ubuntu-latest' }}
+    permissions:
+      security-events: write
+      packages: read
+      actions: read
+      contents: read
+
+    strategy:
+      fail-fast: false
+      matrix:
+        # Predefined matrix of CodeQL supported languages and a fallback option
+        include:
+        - language: ruby
+          build-mode: none
+        - language: python
+          build-mode: none
+        - language: javascript
+          build-mode: none
+        - language: java
+          build-mode: none
+        - language: go
+          build-mode: none
+        - language: swift
+          build-mode: none
+        - language: csharp
+          build-mode: none
+        - language: c-cpp
+          build-mode: none
+        - language: kotlin
+          build-mode: none
+        - language: typescript
+          build-mode: none
+        # You can include other commonly used languages and a fallback to handle unknowns
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Initialize CodeQL
+      uses: github/codeql-action/init@v3
+      with:
+        languages: ${{ matrix.language }}
+        build-mode: ${{ matrix.build-mode }}
+
+    - if: matrix.build-mode == 'manual'
+      shell: bash
+      run: |
+        echo 'This is a manual build mode. Replace with your build commands, e.g.:'
+        echo '  make build'
+        exit 1
+
+    - name: Perform CodeQL Analysis
+      uses: github/codeql-action/analyze@v3
+      with:
+        category: "/language:${{ matrix.language }}"
